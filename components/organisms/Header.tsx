@@ -12,7 +12,7 @@ export default function Header() {
             </h1>
           </Link>
 
-          <SearchBar />
+              <SearchBar />
 
           <div className="hidden md:flex items-center gap-6">
             <nav className="flex items-center gap-6 text-gray-200">

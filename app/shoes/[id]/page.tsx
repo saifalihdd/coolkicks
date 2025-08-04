@@ -15,7 +15,7 @@ async function getShoe(id: string): Promise<Shoe> {
   if (!res.ok) throw new Error("Failed to fetch shoe");
   return res.json();
 }
-
+  
 export default async function ShoeDetailPage({
   params,
 }: {
